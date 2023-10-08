@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        #section1 {
+            background-image: url('virat1.webp'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #section2 {
+            background-image: url('virat2.webp'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #section3 {
+            background-image: url('virat1.webp'); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section-text {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section id="section1">
+        <div class="section-text">
+            <h1>Section 1</h1>
+            <p>This is the first section of the parallax website.</p>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="section-text">
+            <h2>Section 2</h2>
+            <p>This is the second section of the parallax website.</p>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="section-text">
+            <h3>Section 3</h3>
+            <p>This is the third section of the parallax website.</p>
+        </div>
+    </section>
+</body>
+</html>
